@@ -1,0 +1,22 @@
+.oneBody {
+  height: 100px;
+  width: 100px;
+}
+
+.twoBody {
+  border-style: solid;
+  border-color: black;
+  width: 200px;
+  margin: 2px;
+}
+
+.threeBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fourBody {
+  width: 190px;
+  margin: 4px;
+}
