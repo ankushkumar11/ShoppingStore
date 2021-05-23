@@ -7,11 +7,10 @@ import Navigation from "./Navigation";
 function Home() {
   return (
     <div>
-      {/* <Header></Header>
-      <Navigation></Navigation> */}
+      <Header></Header>
+      <Navigation></Navigation>
       <Body></Body>
-      {/* <Footer></Footer> */}
-      <button><Link to="/cart">Go to Cart</Link></button>
+      <Footer></Footer>
     </div>
   );
 }

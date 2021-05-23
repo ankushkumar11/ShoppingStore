@@ -8,6 +8,7 @@
   border-color: black;
   width: 200px;
   margin: 2px;
+  position: relative;
 }
 
 .threeBody {
@@ -19,4 +20,6 @@
 .fourBody {
   width: 190px;
   margin: 4px;
+  position: absolute;
+  bottom: 1px;
 }
