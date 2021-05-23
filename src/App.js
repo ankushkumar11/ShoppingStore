@@ -6,8 +6,13 @@ import Checkout from "./components/Checkout";
 import Payment from "./components/Payment";
 import AddressDetails from "./components/AddressDetails";
 import Confirmation from "./components/Confirmation";
+import { createStore } from "redux";
+import counterReducer from "./reducer/reducer";
+import { composeWithDevTools } from "redux-devtools-extension";
 
 export default function App() {
+  let store = createStore(counterReducer, composeWithDevTools());
+
   return (
     <Router>
       <Switch>
